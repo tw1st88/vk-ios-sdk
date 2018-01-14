@@ -48,6 +48,7 @@ typedef NS_OPTIONS(NSUInteger, VKAuthorizationOptions) {
     VKAuthorizationOptionsUnlimitedToken = 1 << 0,
     ///Pass this option to disable usage of SFSafariViewController
     VKAuthorizationOptionsDisableSafariController = 1 << 1,
+    VKAuthorizationOptionsDisableVKApp = 1 << 2
 };
 
 /**
